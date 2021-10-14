@@ -108,7 +108,7 @@ footer .navbar ul {
 
 footer .navbar ul li {
   margin: 10px;
-  padding-right: 200px;
+  padding-right: 98px;
 }
 
 footer .navbar ul li:nth-child(1) {
@@ -159,9 +159,10 @@ footer .navbar ul li {
 }
 
 @media screen and (max-width: 480px) {
-  header .navbar ul li a {
+header .navbar ul li a {
     font-size: 12px;
 }
+
   .footer_all {
     margin-top: 7px;
     height: 97px;
@@ -179,7 +180,7 @@ footer .navbar ul li a {
 }
 }
 /*ハンバーガー*/
-header .drawer {
+/*header .drawer {
   visibility: visible;
   width: 24px;
   right: 15px;
@@ -257,4 +258,4 @@ body.nav-open header .drawer::before {
 body.nav-open header .drawer::after {
   top: 9px;
   transform: rotate(45deg);
-}
+}*/

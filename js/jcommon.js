@@ -1,4 +1,4 @@
-window.onunload = function() {};
+/*window.onunload = function() {};
 
 function sizecheck() {
   w = window.innerWidth ? window.innerWidth : $(window).width();
@@ -19,4 +19,4 @@ if (w > 769) {
   $('header .navbar').fadeToggle(200);
     });
   }
-}); 
+}); */

@@ -34,11 +34,11 @@ header .navbar ul li:last-child {
   border-right: none;
 }
 
-header .navbar ul li a {
+/*header .navbar ul li a {
   color: rgb(16, 14, 14);
   font-weight: 700;
   font-size: 25px;
-}
+}*/
 
 header .navbar ul li a:hover {
   color: #75a9ff;
