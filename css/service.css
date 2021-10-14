@@ -97,9 +97,48 @@ header .drawer {
 }
 }
 @media screen and (max-width: 768px) {
+  .top::before {
+    height: 75%;
+ }
+ .service_ttl {
+    padding-top: 6%;
+    padding-left: 6%;
+}
 .service_ttl strong {
     display: contents;
 }
 .service_all::before {
-  height: 204vh;
+  height: 100%;
+}
+}
+
+@media screen and (max-width: 480px) {
+ .top img {
+    width: 38%;
+    margin: 107px -106px;
+}
+
+.top::before {
+    height: 40%;
+}
+.service_ttl strong {
+    margin: 138px;
+    font-size: 29px;
+}
+.service_ttl {
+    padding-top: 0px;
+    padding-left: 83px;
+    font-size: 18px;
+}
+.service_sub {
+  padding: 0px 0 0 20px;
+    font-size: 20px;
+}
+ .service_item {
+    margin-top: 50px;
+}
+
+.service_all::before {
+    height: 195vh;
+}
 }
