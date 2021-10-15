@@ -142,3 +142,20 @@ header .drawer {
     height: 195vh;
 }
 }
+
+@media screen and (max-width: 375px) {
+  .top img {
+    width: 38%;
+    margin: 49px -106px;
+}
+.service_ttl {
+    padding-left: 158px;    
+}
+.service .section_ttl {
+    font-size: 67px;
+}
+.service_list {
+    padding: 0px 36px 0px 35px;
+
+}
+}

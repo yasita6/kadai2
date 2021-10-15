@@ -149,7 +149,7 @@ footer .respons {
 
 @media screen and (max-width: 768px) {
   header .navbar ul li {
-    padding-right: 25px;
+    padding-right: 10px;
     margin-left: -3px;
 }
 footer .navbar ul li {
@@ -179,6 +179,22 @@ footer .navbar ul li a {
     font-size: 14px;
 }
 }
+
+@media screen and (max-width: 375px) {
+.header_all {
+    clip-path: polygon(60% 0%, 100% 0%, 100% 110%, 5% 149%);
+    height: 94px;
+}
+header .navbar ul {
+    margin: 37px 0;
+}
+footer .navbar ul li a {
+    font-size: 12px;
+}
+
+}
+
+
 /*ハンバーガー*/
 /*header .drawer {
   visibility: visible;

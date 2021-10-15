@@ -194,3 +194,13 @@
     width: 32px;
 } 
 }
+
+@media screen and (max-width: 375px) {
+  .contact_form_ttl {
+    font-size: 10px;
+}
+.contact_txtarea {
+    font-size: 13px;
+}
+
+}
