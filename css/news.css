@@ -64,6 +64,10 @@
 .top::before {
     height: 57%;
 }
+.top img {
+    width: 38%;
+    margin: 3px -59px;
+}
 
 .service_ttl strong {
     display: contents;
