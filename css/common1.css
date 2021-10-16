@@ -188,6 +188,9 @@ footer .navbar ul li a {
 header .navbar ul {
     margin: 37px 0;
 }
+.footer_all {
+    clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 25% 100%);
+}
 footer .navbar ul li a {
     font-size: 12px;
 }

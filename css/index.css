@@ -278,11 +278,20 @@ header .respons {
 }
 
 @media screen and (max-width: 375px) {
+.service_ttl {
+    font-size: 32px;
+}
+img {
+    width: 67%;
+}
 .service_item::before {
     margin-left: -10%;
     width: 43%;
     height: 43%;
     clip-path: polygon(100% 3%, 0% 159%, 100% 100%);
+}
+.section_ttl strong {
+    font-size: 40px;
 }
 .news_ttl {
     font-size: 18px;  

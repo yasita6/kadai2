@@ -202,5 +202,12 @@
 .contact_txtarea {
     font-size: 13px;
 }
+.contact_ttl strong {
+    font-size: 33px;
+}
+.contact_form_ttl::after {
+    right: 11px;
+    width: 32px;
+}
 
 }
